@@ -1,0 +1,65 @@
+ @import url('https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+ html {
+     height: 100vh;
+ }
+ 
+ body {
+     background-color: #ccc;
+     padding: 0 55px 0 55px;
+     margin: 0;
+ }
+ 
+ .background {
+     background-color: rgb(255, 255, 255);
+     height: 100vh;
+     padding: 50px;
+     min-width: 750px;
+ }
+ 
+ .title {
+     font-family: "seaweed script";
+     font-size: 30pt;
+ }
+ 
+ p {
+     font-family: "nanum brush script";
+     font-size: larger;
+     font-weight: 600;
+ }
+ 
+ .picture1 {
+     width: 350px;
+     transform: rotate(3deg);
+     margin: 0 25px 30px 25px;
+     padding: 10px 10px 10px 10px;
+     border: 2px solid #ddd;
+     box-shadow: 5px 8px 4px 0px #999;
+     font-family: "nanum brush script";
+     font-size: 17pt;
+     text-align: center;
+     float: right;
+     color: #333;
+ }
+ 
+ .ship {
+     width: 350px;
+ }
+ 
+ .picture2 {
+     width: 350px;
+     transform: rotate(-3deg);
+     margin: 0 25px 30px 25px;
+     padding: 10px 10px 10px 10px;
+     border: 2px solid #ddd;
+     box-shadow: 5px 8px 4px 0px #999;
+     font-family: "nanum brush script";
+     font-size: 17pt;
+     text-align: center;
+     float: left;
+     color: #333;
+ }
+ 
+ .booty {
+     width: 350px;
+ }
